@@ -7,7 +7,7 @@ const IndexPage = () => {
     <Layout pageTitle="Home Page">
       <p>I'm making this by following the Gatsby Tutorial.</p>
       <StaticImage
-        alt="mydog"
+        alt="sancho"
         src="C:\work\gatsby_projects\my-blog-2022-06-27\src\images/mypuppy.jpg"
       />
     </Layout>
