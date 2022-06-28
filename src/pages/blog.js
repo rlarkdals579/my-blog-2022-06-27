@@ -4,7 +4,7 @@ import Layout from "../components/layout";
 function BlogPage() {
     return (
         <Layout pageTitle="My Blog Posts">
-            <p>My cool posts will go in here</p>
+            <p>My posts will upload in this page</p>
         </Layout>
     );
 }

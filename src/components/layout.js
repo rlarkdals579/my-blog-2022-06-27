@@ -24,8 +24,7 @@ function Layout({ pageTitle, children }) {
             <title>
                 {pageTitle} | {data.site.siteMetadata.title}
             </title>
-            <header className={siteTitle}>{data.site.siteMetadata.title}</header>
-            <nav>
+            <header className={siteTitle}>{data.site.siteMetadata.title}</header>            <nav>
                 <ul className={navLinks}>
                     <li className={navLinkItem}>
                         <Link className={navLinkText} to="/">
@@ -49,7 +48,7 @@ function Layout({ pageTitle, children }) {
                 <h1 className={heading}>{pageTitle}</h1>
                 {children}
             </main>
-            <div>Copyright All Rights</div>
+            <div>Copyright All Reserved</div>
         </div>
     );
 }
