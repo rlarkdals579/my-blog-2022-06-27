@@ -1,5 +1,6 @@
 import { Link } from "gatsby";
 import React from "react";
+import Head from "../components/head";
 
 const IndexPage = () => {
   return (
@@ -12,6 +13,7 @@ const IndexPage = () => {
         <Link to="/test">테스트</Link>
         <Link to="/test-space">테스트-스페이스</Link>
       </div>
+      <Head />
 
       <h1>Home Page</h1>
     </main>
