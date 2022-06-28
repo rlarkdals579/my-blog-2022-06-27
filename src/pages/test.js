@@ -1,7 +1,7 @@
 import { Link } from "gatsby";
 import React from "react";
 
-function TestPage() {
+const TestPage = () => {
     return (
         <main>
             <title>테스트</title>
